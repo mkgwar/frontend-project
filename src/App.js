@@ -4,6 +4,7 @@ import Data from "./Data";
 import Component1 from "./Components/Component1";
 import Component2 from "./Components/Component2";
 import Component3 from "./Components/Component3";
+import Testimonial from "./Components/Testimonial";
 
 function App() {
   return (
@@ -46,13 +47,9 @@ function App() {
           img={Data[5][2]}
         />
       </main>
-      {/*   Learn more   Learn more     Client testimonials We put our trust in Sunnyside and
-      they delivered, making sure our needs were met and deadlines were always
-      hit. Emily R. Marketing Director Sunnyside&#39;s enthusiasm coupled with
-      their keen interest in our brand&#39;s success made it a satisfying and
-      enjoyable experience. Thomas S. Chief Operating Officer Incredible end
-      result! Our sales increased over 400% when we worked with Sunnyside.
-      Highly recommended! Jennie F. Business Owner About Services Projects
+
+      <Testimonial />
+      {/*   Learn more   Learn more     Client testimonials W        About Services Projects
       Contact */}
     </>
   );

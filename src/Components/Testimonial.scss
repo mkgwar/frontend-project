@@ -1,0 +1,23 @@
+@import "../colors";
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0;
+
+  &__title {
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    letter-spacing: 0.2rem;
+    color: $dark-grayish-blue;
+  }
+  &__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+  }
+}

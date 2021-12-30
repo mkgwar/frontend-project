@@ -1,0 +1,30 @@
+@import "../colors";
+
+.testimony {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+
+  img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    margin-top: 8rem;
+  }
+
+  &__paragraph {
+    line-height: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  &__name {
+    margin-top: 4rem;
+  }
+
+  &__designation {
+    margin-top: 1rem;
+    color: $dark-grayish-blue;
+  }
+}
