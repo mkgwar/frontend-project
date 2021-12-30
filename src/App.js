@@ -1,5 +1,8 @@
 import "./App.scss";
 import arrow from "./images/icon-arrow-down.svg";
+import Data from "./Data";
+import Component1 from "./Components/Component1";
+import Component2 from "./Components/Component2";
 
 function App() {
   return (
@@ -17,12 +20,22 @@ function App() {
         <h1>We are creatives</h1>
         <img src={arrow} alt="arrow" />
       </header>
-      {/* Transform your brand We are a full-service creative agency specializing in
-      helping brands grow fast. Engage your clients through compelling visuals
-      that do most of the marketing for you. Learn more Stand out to the right
-      audience Using a collaborative formula of designers, researchers,
-      photographers, videographers, and copywriters, we&#39;ll build and extend
-      your brand in digital places. Learn more Graphic design Great design makes
+      <main>
+        <Component1
+          title={Data[0][0]}
+          paragraph={Data[0][1]}
+          flex={Data[0][2]}
+        />
+
+        <Component2 img={Data[1][0]} />
+        <Component2 img={Data[2][0]} />
+        <Component1
+          title={Data[3][0]}
+          paragraph={Data[3][1]}
+          flex={Data[3][2]}
+        />
+      </main>
+      {/*   Learn more   Learn more Graphic design Great design makes
       you memorable. We deliver artwork that underscores your brand message and
       captures potential clients&#39; attention. Photography Increase your
       credibility by getting the most stunning, high-quality photos that improve
