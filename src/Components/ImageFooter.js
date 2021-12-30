@@ -7,10 +7,18 @@ import img4 from "../images/desktop/image-gallery-sugarcubes.jpg";
 const ImageFooter = () => {
   return (
     <div className="images">
-      <img src={img1} alt="footer" />
-      <img src={img2} alt="footer" />
-      <img src={img3} alt="footer" />
-      <img src={img4} alt="footer" />
+      <div className="xyz1">
+        <img src={img1} alt="footer" />
+        <img src={img2} alt="footer" />
+        <img src={img3} alt="footer" />
+        <img src={img4} alt="footer" />
+      </div>
+      <div className="xyz2">
+        <img src={img1} alt="footer" />
+        <img src={img2} alt="footer" />
+        <img src={img3} alt="footer" />
+        <img src={img4} alt="footer" />
+      </div>
     </div>
   );
 };

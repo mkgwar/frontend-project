@@ -1,9 +1,48 @@
 .images {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 60vh;
+  position: relative;
+  overflow-x: hidden;
+
+  .xyz1,
+  .xyz2 {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    position: absolute;
+  }
+
+  .xyz1 {
+    top: 0px;
+    left: 0x;
+    animation: move1 20s linear infinite;
+  }
+
+  .xyz2 {
+    top: 0px;
+    right: 0%;
+    animation: move2 20s linear infinite;
+  }
+
+  @keyframes move1 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes move2 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
 
   img {
     height: 100%;
