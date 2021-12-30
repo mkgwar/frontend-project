@@ -3,6 +3,7 @@ import arrow from "./images/icon-arrow-down.svg";
 import Data from "./Data";
 import Component1 from "./Components/Component1";
 import Component2 from "./Components/Component2";
+import Component3 from "./Components/Component3";
 
 function App() {
   return (
@@ -34,12 +35,18 @@ function App() {
           paragraph={Data[3][1]}
           flex={Data[3][2]}
         />
+        <Component3
+          title={Data[4][0]}
+          paragraph={Data[4][1]}
+          img={Data[4][2]}
+        />
+        <Component3
+          title={Data[5][0]}
+          paragraph={Data[5][1]}
+          img={Data[5][2]}
+        />
       </main>
-      {/*   Learn more   Learn more Graphic design Great design makes
-      you memorable. We deliver artwork that underscores your brand message and
-      captures potential clients&#39; attention. Photography Increase your
-      credibility by getting the most stunning, high-quality photos that improve
-      your business image. Client testimonials We put our trust in Sunnyside and
+      {/*   Learn more   Learn more     Client testimonials We put our trust in Sunnyside and
       they delivered, making sure our needs were met and deadlines were always
       hit. Emily R. Marketing Director Sunnyside&#39;s enthusiasm coupled with
       their keen interest in our brand&#39;s success made it a satisfying and
