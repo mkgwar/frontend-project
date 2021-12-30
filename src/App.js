@@ -5,6 +5,7 @@ import Component1 from "./Components/Component1";
 import Component2 from "./Components/Component2";
 import Component3 from "./Components/Component3";
 import Testimonial from "./Components/Testimonial";
+import ImageFooter from "./Components/ImageFooter";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
       </main>
 
       <Testimonial />
+      <ImageFooter />
       {/*   Learn more   Learn more     Client testimonials W        About Services Projects
       Contact */}
     </>
