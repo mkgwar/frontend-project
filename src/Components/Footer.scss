@@ -1,0 +1,49 @@
+@import "../colors";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: hsla(168, 34%, 41%, 0.5);
+  padding: 5rem;
+
+  &__logo {
+    color: #2c7566;
+    font-weight: 900;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+
+    a {
+      color: $Dark-moderate;
+      text-decoration: none;
+      font-weight: 700;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+    margin-top: 5rem;
+
+    img {
+      &:hover {
+        filter: brightness(10);
+      }
+    }
+  }
+}
