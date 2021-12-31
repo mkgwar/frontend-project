@@ -28,3 +28,17 @@
     color: $dark-grayish-blue;
   }
 }
+
+@media (max-width: 650px) {
+  .testimony {
+    width: 100%;
+
+    &__name {
+      margin-top: 2rem;
+    }
+
+    img {
+      margin-top: 5rem;
+    }
+  }
+}

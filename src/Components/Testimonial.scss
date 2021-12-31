@@ -21,3 +21,17 @@
     text-align: center;
   }
 }
+@media (max-width: 650px) {
+  .testimonial {
+    padding: 5rem 1rem;
+
+    &__title {
+      font-size: 1rem;
+    }
+
+    &__items {
+      flex-direction: column;
+      gap: 0rem;
+    }
+  }
+}

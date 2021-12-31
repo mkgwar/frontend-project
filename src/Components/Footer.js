@@ -6,7 +6,7 @@ import img4 from "../images/icon-pinterest.svg";
 
 export const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <h1 className="footer__logo">sunnyside</h1>
       <div className="footer__links">
         <a href="https://www.google.com">About</a>
@@ -19,6 +19,6 @@ export const Footer = () => {
         <img src={img3} alt="social" />
         <img src={img4} alt="social" />
       </div>
-    </div>
+    </footer>
   );
 };

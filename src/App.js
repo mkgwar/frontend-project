@@ -7,6 +7,7 @@ import Component3 from "./Components/Component3";
 import Testimonial from "./Components/Testimonial";
 import ImageFooter from "./Components/ImageFooter";
 import { Footer } from "./Components/Footer";
+import hamburger from "./images/icon-hamburger.svg";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <a href="https://google.com/">Projects</a>
           <a href="https://google.com/">Contact</a>
         </div>
+        <img src={hamburger} alt="button" />
       </nav>
       <header>
         <h1>We are creatives</h1>

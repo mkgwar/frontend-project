@@ -8,6 +8,10 @@ nav {
   top: 0px;
   color: #fff;
 
+  img {
+    display: none;
+  }
+
   .logo {
     font-size: 2rem;
     font-weight: 900;
@@ -61,4 +65,33 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 1fr;
+}
+
+@media (max-width: 650px) {
+  nav {
+    padding: 1rem;
+    .links {
+      display: none;
+    }
+
+    img {
+      display: block;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+  }
+
+  header {
+    gap: 4rem;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  main {
+    grid-template-columns: 100%;
+  }
 }

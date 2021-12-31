@@ -29,3 +29,18 @@
     margin: 1.5rem 0 4rem 0;
   }
 }
+
+@media (max-width: 650px) {
+  .component3 {
+    text-align: center;
+    padding: 1.5rem;
+
+    &__text-content {
+      width: 100%;
+    }
+
+    &__paragraph {
+      margin-bottom: 1rem;
+    }
+  }
+}
